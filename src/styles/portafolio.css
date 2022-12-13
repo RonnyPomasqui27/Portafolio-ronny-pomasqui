@@ -1,0 +1,208 @@
+:root {
+  --action-color: #057e96;
+}
+
+.portafolio-container {
+  width: 100%;
+  height: 80vh;
+  padding: 10px 70px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.first-section {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.portafolio_img {
+  max-width: 370px;
+  min-width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: url('../assets/ecommer.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  transition: 0.3s;
+  animation: products 1s;
+}
+
+.portafolio_img1 {
+  max-width: 370px;
+  min-width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: url('../assets/rikyandmorti.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: products 1.5s;
+}
+
+.portafolio_img2 {
+  max-width: 370px;
+  min-width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: url('../assets/pokedex2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: products 2s;
+}
+
+.portafolio_img3 {
+  max-width: 370px;
+  min-width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: url('../assets/halloween.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: products 2.5s;
+}
+.portafolio_img4 {
+  max-width: 370px;
+  min-width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: url('../assets/maquetacion.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: products 3s;
+}
+
+.portafolio_img5 {
+  max-width: 370px;
+  min-width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: url('../assets/godofwar.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: products 3.5s;
+}
+
+
+.text-resumen {
+  position: absolute;
+  background: rgba(29, 28, 28, 0.7);
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-100%);
+  gap: 20px;
+  transition: 1s;
+}
+
+.text-resumen h2 {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.text-resumen p {
+  color: white;
+  font-size: 1rem;
+}
+
+.portafolio_img:hover .text-resumen {
+  transform: translateX(0%);
+}
+
+.portafolio_img1:hover .text-resumen {
+  transform: translateX(0%);
+}
+
+.portafolio_img2:hover .text-resumen {
+  transform: translateX(0%);
+}
+
+.portafolio_img3:hover .text-resumen {
+  transform: translateX(0%);
+}
+
+.portafolio_img4:hover .text-resumen {
+  transform: translateX(0%);
+}
+
+.portafolio_img5:hover .text-resumen {
+  transform: translateX(0%);
+}
+
+section {
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgba(29, 28, 28, 0.7);
+  border-bottom: 2px solid var(--action-color);
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+section a {
+  text-decoration: none;
+  width: 60%;
+  text-align: center;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: var(--action-color);
+  font-size: 1.1rem;
+}
+
+@keyframes products {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 375px) {
+  .portafolio-container {
+    padding: 0px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: -80px;
+  }
+
+  .first-section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+}
