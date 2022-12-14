@@ -92,7 +92,7 @@ const Resumen = () => {
               </div>
             </div>
             <div className="experience2">
-            <i class="fa-solid fa-desktop icon" style={{fontSize:'1.4rem'}}></i>
+              <i class="fa-solid fa-desktop icon" style={{ fontSize: '1.4rem' }}></i>
               <div className="info">
                 <a href="https://certificates.academlo.com/en/verify/12667677394225" target='blank' className='anchore'>
                   <span style={{ color: 'white', fontSize: '0.8rem' }}>2022</span>
@@ -111,6 +111,30 @@ const Resumen = () => {
             <p style={{ fontSize: '1rem', wordSpacing: '5px' }}>- Consumo de apis con react y axios</p>
             <p style={{ fontSize: '1rem', wordSpacing: '5px' }}>- uso de GIT HUB</p>
             <p style={{ fontSize: '1rem', wordSpacing: '5px' }}>- Mantenimiento de equipos de computo</p>
+          </div>
+
+          <div className="form_container">
+            <form action="" className='form'>
+
+              <div className='div'>
+                <label htmlFor="">Nombre :  </label>
+                <input type="text" />
+              </div>
+              <div className='div'>
+                <label htmlFor="">Correo :  </label>
+                <input type="text" />
+              </div>
+              <div className='div'>
+                <label htmlFor="">Mensaje :  </label>
+                <input type="text" />
+              </div>
+
+              <div className="div">
+                <button className='submit'>
+                  Enviar
+                </button>
+              </div>
+            </form>
           </div>
         </div>
 
