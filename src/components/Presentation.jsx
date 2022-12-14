@@ -9,7 +9,7 @@ const Presentation = () => {
         <p style={{ fontSize: '5rem', fontWeight: '600' }}>POMASQUI</p>
         <p style={{ fontSize: '2rem' }}>Desarrollador front-end</p>
         <div className="presentation_anchor">
-          <a href='https://www.youtube.com/watch?v=IjMESxJdWkg' target='_blank' id='hover'>Curriculum</a>
+          <a href='https://drive.google.com/file/d/1a_hXHNH6MuUVxpqpUQ8ZfUlal1wbvu58/view?usp=sharing' target='_blank' id='hover'>Curriculum</a>
           <Link to={'/portafolio'} id='hover'>Portafolio</Link>
         </div>
       </div>
