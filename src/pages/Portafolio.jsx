@@ -14,7 +14,7 @@ const Portafolio = () => {
                 <p>Axios - React - Css - React Router - Redux</p>
               </div>
             </div>
-            <a href='https://magenta-bubblegum-a33025.netlify.app/' target='_blank'>E-commerce</a>
+            <a href='https://ecommerce-rp.netlify.app/' target='_blank'>E-commerce</a>
           </section>
           <section>
             <div className="portafolio_img2" >
